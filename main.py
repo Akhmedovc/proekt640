@@ -1,7 +1,2 @@
-# import proekt640fio
-# proekt640fio.funk640FIO(0)
-   
-#Косьяненко Богдан
-from proekt640FIO import funk640
-
-funk640(3)
+from proekt640DILMUROD import funk640DILMUROD
+print ('Akhmedov: Результат: ', funk640DILMUROD(5))

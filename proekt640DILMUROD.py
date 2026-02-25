@@ -1,5 +1,3 @@
-def funk640FIO(y):
-
-    y = int(input("Введите число: "))
+def funk640DILMUROD(y):
     n2 = y * (y + 1) // 2
-    print(n2)
+    return n2
