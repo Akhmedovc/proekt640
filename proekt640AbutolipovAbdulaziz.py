@@ -1,5 +1,6 @@
 def funk320FIO(x, y):
-    
+    x = int(input("Введите число x: "))
+    y = int(input("Введите число y: "))
 
     if x % 2 == 0:
         result_x = "Четное"   
