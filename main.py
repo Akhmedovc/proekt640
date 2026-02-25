@@ -1,38 +1,28 @@
 from proekt640AxmedovDilmurod import funk640DILMUROD
-
-from proekt640KosyanenkoBogdan import funk640
-
+from proekt640KosyanenkoBogdan import funk640BOGDAN
 from proekt320QobilovJahongir import funk320QJK
-
-from proekt640AbutolipovAbdulaziz import funk320FIO
-
-#Дильмурод добавляет свой код
-funk640DILMUROD(0)
+from proekt640AbutolipovAbdulaziz import funk640ABDULAZIZ
+from proect640Kuchkarova_Sarvinoz import funk640Sarvina
 
 
-#Богдан добавляет свой код
-funk640(3)
+request = int(input(
+    "Введите номер функции:\n"
+    "1 - DILMUROD\n"
+    "2 - BOGDAN\n"
+    "3 - QJK\n"
+    "4 - ABDULAZIZ\n"
+    "5 - Sarvina\n"
+))
 
-#Кобилов добавляет свой код
-user_input = input("Введите числа через пробел: ")
-
-nums = [int(x) for x in user_input.split()]
-
-result = funk320QJK(nums)
-
-if result is None:
-    print("Второго по величине элемента нет")
+if request == 1:
+    funk640DILMUROD()
+elif request == 2:
+    funk640BOGDAN()
+elif request == 3:
+    funk320QJK()
+elif request == 4:
+    funk640ABDULAZIZ()
+elif request == 5:
+    funk640Sarvina()
 else:
-    print("Второй по величине элемент:", result)
-
-n1 = int(input("Выберите действие: 1 - Богдан, 2 - Дильмурод: "))
-
-#Абдулазиз добавляет свой код
-
-x = 39
-y = 20
-
-result_x, result_y = funk320FIO(x, y)
-
-print(f"{x} -> {result_x}")
-print(f"{y} -> {result_y}")
+    print("Неверный номер функции.")

@@ -1,4 +1,4 @@
-def funk320FIO(x, y):
+def funk640ABDULAZIZ():
     x = int(input("Введите число x: "))
     y = int(input("Введите число y: "))
 
