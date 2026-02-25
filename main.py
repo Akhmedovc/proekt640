@@ -9,6 +9,7 @@ from proekt640AbutolipovAbdulaziz import funk320FIO
 #Дильмурод добавляет свой код
 funk640DILMUROD(0)
 
+
 #Богдан добавляет свой код
 funk640(3)
 
