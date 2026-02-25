@@ -15,14 +15,25 @@ request = int(input(
 ))
 
 if request == 1:
-    funk640DILMUROD()
+    y = int(input("Введите число y: "))
+    funk640DILMUROD(y)
 elif request == 2:
-    funk640BOGDAN()
-elif request == 3:
-    funk320QJK()
+    x = int(input("Введите число x: "))
+    funk640BOGDAN(x)
+elif request == 3: 
+    arr = list(map(int, input("Введите массив чисел через пробел: ").split()))
+    result = funk320QJK(arr)
+    if result is not None:
+        print(f"Второй по величине элемент: {result}")
+    else:
+        print("Массив должен содержать хотя бы два элемента.")
 elif request == 4:
-    funk640ABDULAZIZ()
+    x = int(input("Введите число x: "))
+    y = int(input("Введите число y: "))
+    result_x, result_y = funk640ABDULAZIZ(x, y)
+    print(f"Число x: {result_x}, Число y: {result_y}")
 elif request == 5:
-    funk640Sarvina()
+    x = float(input("Введите угол в градусах: "))
+    funk640Sarvina(x)
 else:
-    print("Неверный номер функции.")
+    print("Неверный номер функции. Пожалуйста, выберите от 1 до 5.")

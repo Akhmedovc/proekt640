@@ -1,6 +1,5 @@
 import math
-def funk640Sarvina():
-    x = float(input("Введите угол в градусах: "))
+def funk640Sarvina(x):
 
     result = math.tan(math.radians(x))
 

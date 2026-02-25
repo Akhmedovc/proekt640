@@ -1,5 +1,4 @@
-def funk320QJK():
-    arr = [int(x) for x in input("Введите числа через пробел: ").split()]
+def funk320QJK(arr):
     if len(arr) < 2:
         return None
 

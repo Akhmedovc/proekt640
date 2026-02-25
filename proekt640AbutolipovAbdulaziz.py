@@ -1,7 +1,5 @@
-def funk640ABDULAZIZ():
-    x = int(input("Введите число x: "))
-    y = int(input("Введите число y: "))
-
+def funk640ABDULAZIZ(x,y):
+    
     if x % 2 == 0:
         result_x = "Четное"   
     else:
