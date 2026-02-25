@@ -1,7 +1,11 @@
-from proekt640DILMUROD import funk640DILMUROD
-print ('Akhmedov: Результат: ', funk640DILMUROD(5))
+import proekt640BogdanK
+import proekt640DILMUROD
 
-#добавил новый скрипт Богдана
-from proekt640FIO import funk640
+n1 = int(input("Выберите действие: 1 - Богдан, 2 - Дильмурод: "))
 
-funk640(3)
+if n1 == 1:
+    proekt640BogdanK.funk640()
+elif n1 == 2:
+    proekt640DILMUROD.funk640DILMUROD()
+else:
+    print("Неверный выбор! Введите 1 или 2.")
