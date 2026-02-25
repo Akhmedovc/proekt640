@@ -4,6 +4,8 @@ from proekt640KosyanenkoBogdan import funk640
 
 from proekt320QobilovJahongir import funk320QJK
 
+from proekt640AbutolipovAbdulaziz import funk320FIO
+
 #Дильмурод добавляет свой код
 funk640DILMUROD(0)
 
@@ -23,3 +25,13 @@ else:
     print("Второй по величине элемент:", result)
 
 n1 = int(input("Выберите действие: 1 - Богдан, 2 - Дильмурод: "))
+
+#Абдулазиз добавляет свой код
+
+x = 39
+y = 20
+
+result_x, result_y = funk320FIO(x, y)
+
+print(f"{x} -> {result_x}")
+print(f"{y} -> {result_y}")
