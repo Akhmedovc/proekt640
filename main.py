@@ -1,11 +1,13 @@
-import proekt640BogdanK
-import proekt640DILMUROD
+from proekt640AxmedovDilmurod import funk640DILMUROD
 
-from funk320QJK import funk320QJK
+from proekt640KosyanenkoBogdan import funk640
 
-from proekt640BogdanK import funk640
+from proekt320QobilovJahongir import funk320QJK
 
-#добавил новый скрипт Богдана
+#Дильмурод добавляет свой код
+funk640DILMUROD(0)
+
+#Богдан добавляет свой код
 funk640(3)
 
 #Кобилов добавляет свой код
