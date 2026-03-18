@@ -1,6 +1,7 @@
 from proekt640AxmedovDilmurod import funk640DILMUROD
 from funcKosyanenko import funk640BOGDAN
 from proektQobilov import funkQobilov
+from proektMaksim import funk640Maksim
 
 y = int(input("Введите число y: "))
 funk640DILMUROD(y)
@@ -24,3 +25,9 @@ x = float(input("Введите угол: "))
 result = tg_x(x)
 
 print("tg(", x, ") =", result)
+
+# Максим
+a1 = int(input("a: "))
+b1 = int(input("b: "))
+result = funk640Maksim(a1, b1)
+print("Сумма:", result)
